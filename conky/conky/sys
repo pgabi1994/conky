@@ -1,0 +1,39 @@
+conky.config = {
+--rendszer
+	alignment = 'top_right',
+	default_color = '#c0c0c0',
+    color1 = '699696',
+	double_buffer = true,
+	draw_graph_borders = true,
+	gap_x = 16,
+	gap_y = 32,
+	maximum_width = 340,
+	minimum_width = 340, minimum_height = 20,
+	wm_class_name = 'Conky',
+	own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
+	own_window_type = 'dock',
+	own_window_class = 'override',
+	own_window = true,
+	own_window_title = 'conky',
+	own_window_argb_visual = true,
+	own_window_argb_value = 40,
+	update_interval = 1,
+	use_spacer = 'yes',
+	use_xft = true,
+	xftalpha = 0.8,
+	font = 'Open Sans:Bold:size=11',
+	template0 = [[
+${font Open Sans:Bold:size=16}${color 699696}\1 ${hr 2}$color${font}${voffset 1}]],
+};
+
+conky.text = [[
+${font Open Sans:Bold:size=12}${template0 RENDSZER}${font}
+
+Disztribúció $alignr${execi -1 lsb_release -ds  | grep -oP '(?<=").*(?=")' | cut -f2}
+Kiadás $alignr${execi -1 lsb_release -r | cut -f2}
+Kódnév $alignr${execi -1 lsb_release -c | cut -f2}
+Kernel$alignr$kernel
+Bekapcsolva $alignr${uptime_short}
+Bootidő$alignr${execi -1 systemd-analyze | grep -o -P '.{0,0}=.{2,5}' | cut -c 2-6 }s
+Rendszer ventillátor$alignr${execi 1 sensors | grep 'sysfan' | cut -c24-31 | sed '/^$/d'}
+]];
