@@ -1,0 +1,48 @@
+conky.config = {
+--ramhdd
+	alignment = 'top_left',
+	default_color = '#c0c0c0',
+    color1 = '699696',
+	double_buffer = true,
+	draw_graph_borders = true,
+	gap_x = 790,
+	gap_y = 32,
+	maximum_width = 340,
+	minimum_width = 340, minimum_height = 20,
+	wm_class_name = 'Conky',
+	own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
+	own_window_type = 'dock',
+	own_window_class = 'override',
+	own_window = true,
+	own_window_title = 'conky',
+	own_window_argb_visual = true,
+	own_window_argb_value = 40,
+	update_interval = 1,
+	use_spacer = 'yes',
+	use_xft = true,
+	xftalpha = 0.8,
+	font = 'Open Sans:Bold:size=11',
+	template0 = [[
+${font Open Sans:Bold:size=16}${color 699696}\1 ${hr 2}$color${font}${voffset 1}]],
+};
+
+conky.text = [[
+${template0 RAM,HDD}
+
+RAM${goto 80}$color1$membar$color
+${goto 80}$mem/$memmax használatban
+#SWAP: $swapperc%$alignr$swap/$swapmax
+#$swapbar
+#HDD
+Root${goto 80}$color1${fs_bar 5,264 /}$color
+${goto 80}${fs_size /}/$color${fs_free /} szabad$color
+Home${goto 80}$color1${fs_bar 5,264 /home}$color
+${goto 80}${fs_size /home}/$color${fs_free /home} szabad$color
+Adat${goto 80}$color1${fs_bar 5,264 /media/adat}$color
+${goto 80}${fs_size /media/adat}/$color${fs_free /media/adat} szabad$color
+
+SDA${goto 112}${execi 1 sudo hddtemp /dev/sda | grep -o -P '.{0,2}°C.{0,0}'}${goto 200}SDB${alignr}${execi 1 sudo hdparm -H /dev/sdb | grep 'is' | cut -c35-} °C
+Írás${goto 82}${diskio_write /dev/sda}${goto 200}Írás${alignr}${diskio_write /dev/sdb}
+Olvasás${goto 82}${diskio_read /dev/sda}${goto 200}Olvasás${alignr}${diskio_read /dev/sdb}
+$color1${diskiograph /dev/sda 30,142}$color${goto 200}$color1${diskiograph /dev/sdb 30,142}$color
+]];

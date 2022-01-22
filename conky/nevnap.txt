@@ -1,0 +1,372 @@
+0101 Fruzsina
+0102 Ábel
+0103 Genoveva, Benjamin
+0104 Titusz, Leona, Angela
+0105 Simon, Amata
+0106 Boldizsár
+0107 Attila, Ramona
+0108 Gyöngyvér
+0109 Marcell
+0110 Melánia
+0111 Ágota
+0112 Ernő
+0113 Veronika
+0114 Bódog
+0115 Lóránt, Lóránd
+0116 Gusztáv
+0117 Antal, Antónia
+0118 Piroska
+0119 Sára, Mario
+0120 Fábián, Sebestyén
+0121 Ágnes
+0122 Vince, Artur, Anasztáz
+0123 Zelma, Rajmund
+0124 Timót
+0125 Pál
+0126 Vanda, Paula
+0127 Angelika, Angéla
+0128 Károly, Karola
+0129 Adél
+0130 Martina, Gerda
+0131 Marcella
+0201 Ignác
+0202 Karolina, Aida
+0203 Balázs
+0204 Ráhel, Csenge, András
+0205 Ágota, Ingrid
+0206 Dorottya, Dóra, Ajándék, Amanda
+0207 Tódor, Rómeo
+0208 Aranka
+0209 Abigél, Alex
+0210 Elvira
+0211 Bertold, Marietta, Adolf
+0212 Lívia, Lídia
+0213 Ella, Linda
+0214 Bálint, Valentin
+0215 Kolos, Georgina
+0216 Julianna, Lilla
+0217 Donát
+0218 Bernadett
+0219 Zsuzsanna
+0220 Aladár, Álmos, Amata
+0221 Eleonóra
+0222 Gerzson
+0223 Alfréd
+0224 Mátyás
+0225 Géza
+0226 Edina
+0227 Ákos, Bátor
+0228 Elemér
+0229 Elemér
+0230  
+0231  
+0301 Albin, Albina
+0302 Lujza
+0303 Kornélia
+0304 Kázmér, Adorján, Adrián, Adrienn
+0305 Adorján, Adrián, Adrienn
+0306 Leonóra, Inez
+0307 Tamás
+0308 Zoltán
+0309 Franciska, Fanni
+0310 Ildikó
+0311 Szilárd, Aladár
+0312 Gergely
+0313 Krisztián, Ajtony
+0314 Matild
+0315 Kristóf
+0316 Henrietta
+0317 Gertrud, Patrik
+0318 Sándor, Ede, Alexandra
+0319 József, Bánk
+0320 Klaudia
+0321 Benedek
+0322 Beáta, Izolda
+0323 Emőke
+0324 Gábor, Karina
+0325 Irén, Irisz
+0326 Emánuel
+0327 Hajnalka
+0328 Gedeon, Johanna
+0329 Aguszta
+0330 Zalán, Amade
+0331 Árpád, Ajtony
+0401 Hugó
+0402 Áron
+0403 Buda, Richárd
+0404 Izidor
+0405 Vince
+0406 Vilmos, Biborka
+0407 Herman
+0408 Dénes
+0409 Erhard
+0410 Zsolt
+0411 Leó, Szaniszló
+0412 Gyula
+0413 Ida
+0414 Tibor
+0415 Anasztázia, Tas
+0416 Csongor
+0417 Rudolf
+0418 Andrea, Ilma, András
+0419 Emma
+0420 Tivadar
+0421 Konrád
+0422 Csilla, Noémi
+0423 Béla
+0424 György
+0425 Márk
+0426 Ervin
+0427 Zita
+0428 Valéria
+0429 Péter, Albert, Albertina
+0430 Katalin, Kitti
+0431  
+0501 Fülöp, Jakab, Amarilla
+0502 Zsigmond
+0503 Tímea, Irma
+0504 Mónika, Flórián
+0505 Györgyi
+0506 Ivett, Frida
+0507 Gizella
+0508 Mihály
+0509 Gergely
+0510 Armin, Palma
+0511 Ferenc, Adolf
+0512 Pongrác
+0513 Szervác, Imola
+0514 Bonifác
+0515 Zsófia, Szonja
+0516 Mózes, Botond
+0517 Paszkál
+0518 Erik, Alexandra
+0519 Ivó, Milán
+0520 Bernát, Felicia
+0521 Konstantin, András
+0522 Júlia, Rita
+0523 Dezső
+0524 Eszter, Eliza
+0525 Orbán
+0526 (vízóra) Fülöp, Evelin, Amanda
+0527 Hella
+0528 Emil, Csanád, Ágoston
+0529 Magdolna
+0530 Janka, Zsanett
+0531 Angéla, Petronella
+0601 Tünde
+0602 Kármen, Anita, Anna, Annamária
+0603 Klotild
+0604 Bulcsu
+0605 Fatime
+0606 Norbert, Cintia
+0607 Róbert
+0608 Medárd
+0609 Félix, Annabella
+0610 Margit, Greta
+0611 Barnabás
+0612 Villő
+0613 Antal, Anett, Anna
+0614 Vazul
+0615 Jolán, Vid
+0616 Jusztin
+0617 Laura, Alida, Adolf, Alina, Alinda
+0618 Arnold, Levente
+0619 Gyárfás
+0620 Rafael
+0621 Alajos, Leila, Aladár, Aloma
+0622 Paulina
+0623 Zoltán
+0624 Iván
+0625 Vilmos
+0626 János, Pál
+0627 László
+0628 Levente, Irén
+0629 Péter, Pál
+0630 Pál
+0631  
+0701 Tihamér, Annamária
+0702 Ottó
+0703 Kornél, Soma, Anatol
+0704 Ulrik
+0705 Emese, Sarolta, Antal
+0706 Csaba
+0707 Apollónia
+0708 Ellák
+0709 Lukrécia
+0710 Amália, Alma
+0711 Nóra, Lili
+0712 Izabella, Dalma
+0713 Jenő
+0714 Őrs, Stella
+0715 Henrik, Roland
+0716 Valter
+0717 Endre, Elek, Ajándék, András
+0718 Frigyes
+0719 Emilia
+0720 Illés
+0721 Dániel, Daniella
+0722 Magdolna
+0723 Lenke
+0724 Kinga, Kincső
+0725 Kristóf, Jakab
+0726 Anna, Anikó, Annamária
+0727 Olga, Liliana, Ajtony
+0728 Szabolcs
+0729 Márta, Flóra
+0730 Judit, Xénia
+0731 Oszkár
+0801 Boglárka
+0802 Lehel, Alfonz
+0803 Hermina
+0804 Domonkos, Dominika
+0805 Krisztina, Afrodite
+0806 Berta, Bettina
+0807 Ibolya, Afrodite
+0808 László
+0809 Emőd
+0810 Lőrinc
+0811 Zsuzsanna, Tiborc
+0812 Klára
+0813 Ipoly
+0814 Marcell
+0815 Mária
+0816 Ábrahám
+0817 Jácint, Anasztáz
+0818 Ilona
+0819 Huba
+0820 István
+0821 Sámuel, Hajna
+0822 Menyhért, Mirjam
+0823 Bence
+0824 Bertalan
+0825 Lajos, Patricia
+0826 Izsó
+0827 Gáspár
+0828 Ágoston
+0829 Beatrix, Erna
+0830 Rózsa
+0831 Erika, Bella
+0901 Egyed, Egon
+0902 Rebeka, Dorina
+0903 Hilda
+0904 Rozália
+0905 Viktor, Lőrinc, Alpár
+0906 Zakariás
+0907 Regina
+0908 Mária, Adrienn, Adorján, Adrián
+0909 Ádám, András
+0910 Nikolett, Hunor
+0911 Teodóra
+0912 Mária
+0913 Kornél, Amata
+0914 Szeréna, Roxana
+0915 Enikő, Melitta
+0916 Edit
+0917 Zsófia
+0918 Diana
+0919 Vilhelmina
+0920 Friderika
+0921 Máté, Mirella
+0922 Móric
+0923 Tekla
+0924 Gellért, Mercédesz
+0925 Eufrozina, Kende
+0926 Jusztina
+0927 Adalbert, Adolf, Albertina
+0928 Vencel
+0929 Mihály
+0930 Jeromos
+0931  
+1001 Malvin
+1002 Petra
+1003 Helga
+1004 Ferenc
+1005 Aurél
+1006 Bruno, Renáta
+1007 Amália
+1008 Koppány
+1009 Dénes
+1010 Gedeon
+1011 Brigitta
+1012 Miksa
+1013 Kálmán, Ede
+1014 Helén
+1015 Teréz
+1016 Gál
+1017 Hedvig
+1018 Lukács
+1019 Nándor
+1020 Vendel
+1021 Orsolya
+1022 Előd
+1023 Gyöngyi
+1024 Salamon
+1025 Blanka, Bianka
+1026 Dömötör
+1027 Szabina
+1028 Simon, Szimonetta
+1029 Nárcisz
+1030 Alfonz
+1031 Farkas
+1101 Marianna
+1102 Achilles
+1103 Győző
+1104 Károly
+1105 Imre
+1106 Lénárd
+1107 Rezső
+1108 Zsombor
+1109 Tivadar
+1110 Réka, András
+1111 Márton
+1112 Jónás, Renátó, Aba
+1113 Szilvia
+1114 Aliz
+1115 Albert, Lipót
+1116 Ödön
+1117 Hortenzia, Gergő
+1118 Jenő
+1119 Erzsébet
+1120 Jolán
+1121 Olivér
+1122 Cecília
+1123 Kelemen, Klementina
+1124 Emma
+1125 Katalin, Alan
+1126 Virág
+1127 Virgil
+1128 Stefánia
+1129 Taksony
+1130 András, Andor
+1131  
+1201 Elza
+1202 Melinda, Vivien
+1203 Ferenc
+1204 Borbála, Barbara
+1205 Vilma
+1206 Miklós
+1207 Ambrus
+1208 Mária
+1209 Natália
+1210 Judit
+1211 Árpád
+1212 Gabriella
+1213 Luca, Otília
+1214 Szilárda
+1215 Valér
+1216 Etelka, Aletta, Albina
+1217 Lázár, Olimpia
+1218 Auguszta
+1219 Viola
+1220 Teofil
+1221 Tamás
+1222 Zénó
+1223 Viktória
+1224 Ádám, Éva, Ada, Adél
+1225 Eugénia
+1226 István
+1227 János
+1228 Kamilla
+1229 Tamás, Tamara
+1230 Dávid
+1231 Szilveszter
