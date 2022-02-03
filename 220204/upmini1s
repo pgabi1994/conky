@@ -1,0 +1,32 @@
+conky.config = {
+    alignment = 'top_middle',
+    own_window_transparent = true,
+	default_color = 'c0c0c0',
+	double_buffer = true,
+	draw_graph_borders = true,
+	gap_x = 0,
+	gap_y = 12,
+	maximum_width = 1878,
+	minimum_width = 1878, minimum_height = 20,
+	own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
+	own_window_type = 'dock',
+	own_window_class = 'override',
+	own_window = true,
+	own_window_title = 'conky',
+	own_window_argb_visual = true,
+	own_window_argb_value = 40,
+	update_interval = 1,
+	use_xft = true,
+	xftalpha = 0.8,
+	font = 'Open Sans:Bold:size=11',
+	template0 = [[
+${font Open Sans:Bold:size=11}${color 699696}]],
+	template1 = [[
+${font Open Sans:Bold:size=11}${color c0c0c0}]],
+};
+conky.text = [[
+${template0}CPU: ${template1}i3-6100 @$freq MHz${goto 259}${template1}${cpubar 4,142}   $cpu%${goto 839}${template0}SSID: ${template1}${wireless_essid wlp0s20f0u7}  ${wireless_link_bar 4,100 wlp0s20f0u7}  ${wireless_link_qual_perc wlp0s20f0u7}%${goto 1224}${template0}CPUTEMP: ${template1}${exec sensors | grep 'Core 0' | cut -c17-18 | sed '/^$/d'} °C${goto 1439}${template0}CPUFAN: ${template1}${execi 1 sensors | grep 'cpufan' | cut -c24-31 | sed '/^$/d'}
+${template0}RAM: ${template1}$mem/$memmax${goto 259}${membar 4,142}   ${memperc}%${goto 839}${template0}IP: ${template1}${addr wlp0s20f0u7}, ${execi 0 wget http://ipinfo.io/ip -qO -}${goto 1224}${template0}GPUTEMP: ${template1}${execi 1 sensors | grep 'edge' | cut -c16-17 | sed '/^$/d'} °C${goto 1439}${template0}GPUFAN: ${template1}${execi 1 sensors | grep 'gpufan' | cut -c14-21 | sed '/^$/d'}
+${goto 482}${template0}R/W SDA: ${template1}${diskio_read /dev/sda}/${diskio_write /dev/sda}${goto 839}${goto 1224}${template0}SYSTEMP: ${template1}${exec sensors | grep 'AUXTIN0' | cut -c26-27 | sed '/^$/d'} °C${goto 1439}${template0}SYSFAN: ${template1}${execi 1 sensors | grep 'sysfan' | cut -c24-31 | sed '/^$/d'}
+${goto 482}${template0}R/W SDB: ${template1}${diskio_read /dev/sdb}/${diskio_write /dev/sdb}${goto 839}${template0}UL/DL: ${template1}${upspeed wlp0s20f0u7}/${downspeed wlp0s20f0u7}${goto 1043}| ${totalup wlp0s20f0u7}/${totaldown wlp0s20f0u7}${goto 1224}${template0}DISKTEMP: ${template1}${execi 1 sudo hddtemp /dev/sda | grep -o -P '.{0,2}°C.{0,0}'}, ${execi 1 sudo hdparm -H /dev/sdb | grep 'is' | cut -c35-} °C
+]];
